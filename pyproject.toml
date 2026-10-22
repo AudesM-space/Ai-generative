@@ -1,0 +1,22 @@
+[project]
+name = "ai-generative"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "ipykernel>=7.4.0",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.3",
+    "torch>=2.14.1",
+    "torcheval>=0.0.7",
+    "torchmetrics>=1.9.0",
+    "torchviz>=0.0.3",
+]
+
+[project.scripts]
+ai-generative = "ai_generative:main"
+
+[build-system]
+requires = ["uv_build>=0.12.24,<0.13.0"]
+build-backend = "uv_build"
