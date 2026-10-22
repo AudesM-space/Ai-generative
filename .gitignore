@@ -1,3 +1,6 @@
 .venv/
 __pycache__/
+<<<<<<< HEAD
 .python-version
+=======
+>>>>>>> bdd66045252dfc2654a6dff8531f477a7a73ea8d
